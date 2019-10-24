@@ -1,4 +1,6 @@
-*{ font-family: Helvetica;
+*{ 
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
 }
 main{
     display: flex;
@@ -6,19 +8,25 @@ main{
     align-items: center;
     flex-direction: column;
 }
-.hidden{
+.escondido{
     display: none;
 }
 .showroom{
     min-width: 500px;
     min-height: 500px;
-    background: orange;
+    background: yellow;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 ul{
-    display: flex;
-    flex-direction: row;
+    list-style-type: none;
+    display: flex; 
+    
+}
+ul li img{
+    width: 100%;
+    width: 110px;
+    margin: auto;
+    padding: 4px;
 }
