@@ -1,0 +1,16 @@
+*{ font-family: 'Courier New', Courier, monospace
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+showroom{
+    width: 50;
+    height: 50 ;
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: 
+}
